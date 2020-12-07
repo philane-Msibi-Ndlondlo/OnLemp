@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+img, p, img, section, main, header, footer, div {
+  display: block;
+  border: none;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: auto;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #fff;
+  position: relative;
+}
+body header {
+  background-color: #7d5fff;
+  height: 80px;
+  max-height: 80px;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+body header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+body header .nav .logo .logo-text {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+body header .nav nav {
+  height: 80px;
+}
+body header .nav nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px;
+}
+body header .nav nav ul li {
+  color: #fff;
+}
+body header .nav nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 1em 2.2em;
+  font-size: 1rem;
+}
+body header .nav nav ul li a:hover {
+  background-color: #7158e2;
+}
+body header .nav nav ul li:last-child {
+  background-color: #3ae374;
+}
+body header .nav nav ul li:last-child a:hover {
+  background-color: #3ae374;
+}
+body main .hero {
+  background-color: #7158e2;
+  min-height: 768px;
+}
+body main .hero .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  min-height: 768px;
+}
+body main .hero .inner .hero-text {
+  font-size: 3rem;
+  font-weight: bold;
+}
+body main .hero .inner .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
+body main .hero .inner .buttons a {
+  display: block;
+  padding: 0.8em 2em;
+  background-color: #3ae374;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-right: 0.6em;
+  width: 150px;
+  text-align: center;
+  border-radius: 6px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+body main .top-cvs {
+  padding: 2em;
+}
+body main .top-cvs .inner .cv {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(600px, 1fr));
+  grid-gap: 30px;
+  margin-top: 1em;
+}
+body main .top-cvs .inner .cv .cv-box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+}
+body main .top-cvs .inner .cv .cv-box .img {
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  overflow: hidden;
+  margin-top: 1em;
+}
+body main .top-cvs .inner .cv .cv-box .img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+body main .top-cvs .inner .cv .cv-box p, body main .top-cvs .inner .cv .cv-box a {
+  margin-top: 1em;
+  font-family: "Montserrat", sans-serif;
+}
+body main .top-cvs .inner .cv .cv-box .buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+body main .top-cvs .inner .cv .cv-box .buttons a {
+  background-color: #3498db;
+  color: #fff;
+  padding: 0.5em 1em;
+}
+body main .top-cvs .inner .cv .cv-box .buttons a.green {
+  background-color: #3ae374;
+}
+body main .top-cvs .inner .cv .cv-box .buttons a.orange {
+  background-color: #f39c12;
+}
+body main .top-cvs .inner .cv .cv-box .buttons a.blue {
+  background-color: #3498db;
+}
+body main .about, body main .top-cvs-box {
+  margin: 100px 0;
+}
+body main .about h1, body main .about h2, body main .about h3, body main .about h4, body main .top-cvs-box h1, body main .top-cvs-box h2, body main .top-cvs-box h3, body main .top-cvs-box h4 {
+  margin: 1em 0;
+}
+body footer {
+  width: 100%;
+  padding: 1em 0;
+  background-color: #7d5fff;
+  color: #fff;
+}
+body footer .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body footer .inner a {
+  color: #3ae374;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
